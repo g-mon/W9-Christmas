@@ -33,14 +33,14 @@ public class TwelveDays{
         if(s==3){
             System.out.println("On the 3rd day of Christmas my true love sent to me:");
         }
-        else{
+        if(4<=s){
             System.out.println("On the "+s+"th day of Christmas my true love sent to me:");
         }    
     }
     
     public void body(int b){
         int count=b-1;
-        while(b>=0){
+        while(count>=0){
             System.out.println(gifts.get(count));
             count--;
         }
